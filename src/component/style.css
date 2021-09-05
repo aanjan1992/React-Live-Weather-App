@@ -148,9 +148,18 @@ body {
 }
 
 /* input search button style  */
+.wrap {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 50px;
+  }
+
 
 .search {
-  width: 700%;
+  width: 90%;
   display: flex;
   justify-content: center;
   
@@ -193,13 +202,7 @@ body {
   background-color: #17b8ce;
 }
 
-.wrap {
-  display: flex;
-  justify-content: center;
-  text-align: center;
-  margin: auto;
-  margin-bottom: 50px;
-}
+
 
 .noselect {
     -webkit-touch-callout: none; /* iOS Safari */
@@ -221,15 +224,24 @@ body {
 } */
 
 @media (max-width:768px){
+    .wrap{
+        width: 100%;
+    }
+    .wrap .search{
+        width: 100%;
+    }
+    .searchTerm{
+        width: 90%;
+    }
     .widget{
-        width: 80%;
+        width: 90%;
         height: auto;
         margin: auto;
         flex-direction: column;
     }
     .wi.u{
         font-size: 70px;
-        padding-bottom: 20px;
+        padding: 20px;
     }
     .widget .weatherInfo .description{
         margin: auto;
@@ -238,11 +250,14 @@ body {
     .widget .date{
         padding-bottom: 20px;
     }
-    .widget .weatherInfo .description .weatherCondition,
+    .widget .weatherInfo .description .weatherCondition{
+        font-size: 20px;
+    }
     .widget .weatherInfo .temperature,
+    .widget .weatherInfo .description,
     .widget .date{
         font-size: 20px;
-        padding-top: 20px;
+        padding: 20px;
         
     }
     .widget .extra-temp {
