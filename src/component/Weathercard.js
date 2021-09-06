@@ -64,6 +64,9 @@ function Weathercard({tempInfo, background, cityLookup}) {
                     case "Mist":
                     setWeatheState("wi-dust");
                     break;
+                    case "Rain":
+                    setWeatheState("wi-rain");
+                    break;
                     case "Snow":
                     setWeatheState("wi-snow");
                     break;
