@@ -33,6 +33,18 @@ function Weathercard({tempInfo, background, cityLookup}) {
                     case "Mist":
                     setWeatheState("wi-dust");
                     break;
+                    case "Rain":
+                    setWeatheState("wi-rain");
+                    break;
+                    case "Snow":
+                    setWeatheState("wi-snow");
+                    break;
+                    case "Lightning":
+                    setWeatheState("wi-Lightning");
+                    break;
+                    case "Thunderstorm":
+                    setWeatheState("wi-Thunderstorm");
+                    break;
 
                     default:
                     setWeatheState("wi-day-sunny");
@@ -51,6 +63,15 @@ function Weathercard({tempInfo, background, cityLookup}) {
                     break;
                     case "Mist":
                     setWeatheState("wi-dust");
+                    break;
+                    case "Snow":
+                    setWeatheState("wi-snow");
+                    break;
+                    case "Lightning":
+                    setWeatheState("wi-Lightning");
+                    break;
+                    case "Thunderstorm":
+                    setWeatheState("wi-Thunderstorm");
                     break;
 
                     default:
