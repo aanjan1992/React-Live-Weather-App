@@ -40,10 +40,10 @@ function Weathercard({tempInfo, background, cityLookup}) {
                     setWeatheState("wi-snow");
                     break;
                     case "Lightning":
-                    setWeatheState("wi-Lightning");
+                    setWeatheState("wi-lightning");
                     break;
                     case "Thunderstorm":
-                    setWeatheState("wi-Thunderstorm");
+                    setWeatheState("wi-thunderstorm");
                     break;
 
                     default:
@@ -71,10 +71,10 @@ function Weathercard({tempInfo, background, cityLookup}) {
                     setWeatheState("wi-snow");
                     break;
                     case "Lightning":
-                    setWeatheState("wi-Lightning");
+                    setWeatheState("wi-lightning");
                     break;
                     case "Thunderstorm":
-                    setWeatheState("wi-Thunderstorm");
+                    setWeatheState("wi-thunderstorm");
                     break;
 
                     default:
